@@ -1,0 +1,50 @@
+Programmable Door Prefab
+Fionna#5639. Find me on VRChat Discord, #worlds
+4/22/2018
+
+Local vs Synced doors
+-----------------------
+There are two types: Synced doors act the same for everyone.  In theory, if a user programs a new code, that code should be the same for all players. 
+Local doors only open for one player.  Other players will not see the door open and will not be able to enter unless they also know the code.  For local doors, programming will only work per user, so it's not really useful unless someone wants to program all the doors to an easy-to-remember code for themselves.
+
+
+How to set the codes for the doors
+-----------------------------------
+IMPORTANT***If you want doors to start with a unique code, you need to make a copy of the AnimatorController for each unique door!  
+
+To Set Unique Code for each door:
+1. Find the "Programmable 4 digits" Animator controller in assets.
+2. Duplicate one controller for each door.
+4. Choose the door and drag its unique Animator Controller in the Animator component.
+5. Choose the KeypadLockedDoor component
+6. Go to Window--> Animator
+7. Enter the 4 digit code in the Correct Digit A,B,C,and D parameters
+8. Check Unlocked if you want the door to start Unlocked.  
+    To start the door locked, leave unchecked.
+
+To Program Code in-game
+----------------------------
+1. When door is in open state, press the * button on keypad
+2. Enter a new 4 digit code.
+3. Can be reprogrammed as long as door is open.
+
+To disable the reprogram function
+-----------------------------------------------
+1. In the hierarchy, navigate to Unlocked component
+2. Disable/delete the ProgramButton collider
+
+To program a new code in game with your own Triggers
+----------------------------------------------------
+1.Use the Trigger basic action "Animation Int"
+2.Select the correct door as the Receiver
+3.Type (caps count!) Correct Digit A, and for the value put an integer 0-9
+4.Add another identical action for B,C,and D.
+
+To use as a prison, you can also remove/disable the inside "open" button.
+For a one-way door, you can use a Trigger just past the door to close the door using Animation Trigger "Lock".
+
+
+To use your own textures
+--------------------------
+Included are image files that it is easy to photoshop your own door images onto. The included meshes have UVmaps that will wrap these images onto the door.  
+

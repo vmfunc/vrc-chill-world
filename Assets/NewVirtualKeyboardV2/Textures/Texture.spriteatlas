@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Texture
+  m_EditorData:
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 1
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 1
+      sRGB: 1
+    platformSettings: []
+    packingParameters:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: d079ad32cf96b1847a2bd439f7d2abff, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 1486e30c4c4bd5944926bc0d47db6ad2, type: 3}
+  - {fileID: 21300000, guid: 3e25625fac3cd294b9345bd4a4897e85, type: 3}
+  - {fileID: 21300000, guid: a86a46aeb2e829c418799375df8719c2, type: 3}
+  - {fileID: 21300000, guid: dab964f4a4c6ab347af78613016cd240, type: 3}
+  - {fileID: 21300000, guid: 321a62b9f355c0c4f8800593c69c6067, type: 3}
+  - {fileID: 21300000, guid: ce486e9a7cca3ac448e09f9f0d03735d, type: 3}
+  - {fileID: 21300000, guid: 6515f0cf32484a8429108bab47a736a0, type: 3}
+  - {fileID: 21300000, guid: f31f7f4abf7a95e45af7dce83f5cd8dd, type: 3}
+  - {fileID: 21300000, guid: 63a5a0c88af633441b1dd8384ab858d8, type: 3}
+  - {fileID: 21300000, guid: 1edbbfa8cfcebbc4a82b077e7b977ad4, type: 3}
+  - {fileID: 21300000, guid: 25804785f048ae84793a5e4fbc724db6, type: 3}
+  - {fileID: 21300000, guid: f58fc83a8eb6d5446bfe8c6d268fbc8f, type: 3}
+  - {fileID: 21300000, guid: 98d157067293da94d8861f0dcd1baa22, type: 3}
+  - {fileID: 21300000, guid: 10c45ae9814559948bf277cf8c4b00e1, type: 3}
+  - {fileID: 21300000, guid: afb3efaed5d18a246a8ea9d310b8d209, type: 3}
+  - {fileID: 21300000, guid: 79cee9ab708bb9c48a2ad40288ec6b76, type: 3}
+  - {fileID: 21300000, guid: d7c8719fd69078743b223f23e6349286, type: 3}
+  - {fileID: 21300000, guid: eac9fcd2c12d6504ebb9c4031e073ef0, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Station2
+  - Station1
+  - Station3
+  - NewVirtualKeyboardTexture2
+  - NewVirtualKeyboardTextureShift2
+  - LogUp
+  - LogDown
+  - NotColliderTyping
+  - ColliderTyping
+  - OnSpeaker
+  - OffSpeaker
+  - Right
+  - Left
+  - ExitButton
+  - Pointer
+  - SitButton
+  - Caret
+  - button
+  m_Tag: Texture
+  m_IsVariant: 0

@@ -1,0 +1,53 @@
+Eatable Food
+v2.0
+2019-02-26
+Questions and comments to Fionna#5639
+-----------
+
+Changelog:
+v2.0
+Changed reset method from TeleportTo, which was horribly bugged, to Autocam.
+Reorganized triggers a bit.
+
+
+-----------------
+INSTRUCTIONS
+-----------------
+1. In the example scene, you will see a PlayerTracking-Food object, and copies of the food prefab.  To make your own scene with your own items, drag in the PlayerTracking-Food prefab into the scene.  If you want to edit the size of the collider that is around players' heads, look under 
+>PlayerTracking-Food
+ >PlayerHandle
+   >EatingCollider
+
+2.Currently the EatingCollider under the PlayerHandle is set to "Walkthrough" layer.  All the food collides with that to detect the players' heads.   You may want to make a custom layer just for eating food.  In this case, make your custom layer. Then you will need to adjust the OnEnterTrigger in the "PlayerCollider" in the food prefab to look for that layer. (If you don't understand how to edit layers or the collision matrix, look up Unity tutorials.)  
+
+
+To customize the food, in the "mesh" object, put your own model mesh in the Mesh Filter component, put your own material in the Mesh Renderer, and adjust the scale as needed. You can also just drag in your gameobject under the "mesh" object.  If you already have colliders on this object, you can delete the "PhysicsCollider" object.
+
+To change the eating sound, put your own sound file in the audio source EatSound.  Do not set the object active.
+
+To change the time it takes for the food to reappear, change the delay in the Reset custom trigger under Player Collider.
+
+Each item has a Reset in the CustomTriggers. Currently they reset to their parent transform for ease of prefab use.  You can move this transform anywhere to have it reset there.  It does this by very quickly enabling and disabling an AutoCam component.  The camera on this object is to keep Autocam component from throwing errors, leave it there but disabled.  Autocam is a very useful script that just follows the transform position and rotation of its target.  By enabling it, it moves to the target, and disabling it lets gravity take over again.
+
+If you want to spawn the food in with SpawnObject instead, you can put your own actions in the Reset custom trigger, such as Reap (don't use Destroy on synced objects, use Reap).   Or you can call the Reset trigger with a separate button if you want the food to stay "eaten" (invisible and uninteractable) until the button is pushed.
+
+
+
+Bon Appetit!
+
+
+CREDITS
+------------
+PlayerTracking system made by HardLight680, as part of the
+Toybox prefab.  
+That prefab can be found in its entirety here:
+	https://tinyurl.com/vrcprefabs						
+------------
+Food models are Adorable Food, free from the Unity Asset Store.
+------------
+Sounds are from www.freesound.org
+------------
+
+
+
+

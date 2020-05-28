@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 5ccb4b13c60d53647ab13832b33c0ef4
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Circle
+    100002: Circle_001
+    100004: Circle_002
+    100006: Circle_005
+    100008: Circle_006
+    100010: Circle_007
+    100012: Circle_008
+    100014: Circle_009
+    100016: Circle_010
+    100018: Circle_011
+    100020: Circle_012
+    100022: Hemi
+    100024: Plane
+    100026: Plane_001
+    100028: Plane_002
+    100030: Plane_003
+    100032: //RootNode
+    100034: Text_006
+    400000: Circle
+    400002: Circle_001
+    400004: Circle_002
+    400006: Circle_005
+    400008: Circle_006
+    400010: Circle_007
+    400012: Circle_008
+    400014: Circle_009
+    400016: Circle_010
+    400018: Circle_011
+    400020: Circle_012
+    400022: Hemi
+    400024: Plane
+    400026: Plane_001
+    400028: Plane_002
+    400030: Plane_003
+    400032: //RootNode
+    400034: Text_006
+    2100000: unnamed
+    2100002: bake_ref__col
+    2100004: bake_ref_001__col
+    2100006: Ref_2__col
+    2100008: Material__col
+    2100010: Ref_2_001__col
+    2300000: Circle
+    2300002: Circle_001
+    2300004: Circle_002
+    2300006: Circle_005
+    2300008: Circle_006
+    2300010: Circle_007
+    2300012: Circle_008
+    2300014: Circle_009
+    2300016: Circle_010
+    2300018: Circle_011
+    2300020: Circle_012
+    2300022: Plane
+    2300024: Plane_001
+    2300026: Plane_002
+    2300028: Plane_003
+    2300030: Text_006
+    3300000: Circle
+    3300002: Circle_001
+    3300004: Circle_002
+    3300006: Circle_005
+    3300008: Circle_006
+    3300010: Circle_007
+    3300012: Circle_008
+    3300014: Circle_009
+    3300016: Circle_010
+    3300018: Circle_011
+    3300020: Circle_012
+    3300022: Plane
+    3300024: Plane_001
+    3300026: Plane_002
+    3300028: Plane_003
+    3300030: Text_006
+    4300000: Plane
+    4300002: Circle
+    4300004: Plane_003
+    4300006: Plane_001
+    4300008: Circle_006
+    4300010: Plane_002
+    4300012: Text_006
+    4300014: Circle_012
+    4300016: Circle_001
+    4300018: Circle_002
+    4300020: Circle_007
+    4300022: Circle_008
+    4300024: Circle_009
+    4300026: Circle_010
+    4300028: Circle_011
+    4300030: Circle_005
+    7400000: Default Take
+    9500000: //RootNode
+    10800000: Hemi
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

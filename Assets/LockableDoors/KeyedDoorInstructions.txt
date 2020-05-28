@@ -1,0 +1,77 @@
+Unique Keyed Doors
+==================
+
+Included in this prefab is an example that uses 6 layers, which allows for 20 unique keys as well as  Master keys.
+You can add more unique keys by increasing the amount of layers or triggers/tumblers used, see below for more info.
+
+
+Think of each lock having a code.  The code consists of a combination of Key Layers.  So Lock 123 will have
+three "tumblers", each looking for a specific layer to unlock it.  Only when all the tumblers see the correct key layer will it open.
+
+Each key should have children objects that are active on the key layer corresponding to the "code" they open.  So the key to Door 123
+will have Keylayer1, Keylayer2, and Keylayer3 active.
+
+
+DOOR AUTO-CLOSE
+------------------
+This door will automatically close 5 seconds after it is opened with a key.  To change this time, set the parameter to 1/seconds you want it to stay open.
+0 = never auto-closes
+.1 = ten seconds
+.2 = five seconds
+.03 = thirty seconds
+.017 = sixty seconds
+
+PROGRAMMING DOOR KEY 'CODES'
+------------------
+To "program" the door, you need to change the layer in the EnterTrigger component of each Tumbler to the correct code. You may want to
+name the door with its code so you can easily match up the key.  Set the gameobjects of the corresponding key active.
+
+MAKING MASTER KEYS
+------
+Set all child objects in the key active to make a master skeleton key that will open all doors.
+
+MAKING LEVEL KEYS
+-----------------
+You can set a "level master" key to open a subset of doors, say on a level.
+For example: Key1234 with objects 1,2,3,and 4 active will open doors with codes 123, 124, 134, 234.
+
+LEVEL DESIGN TIPS
+------------
+It is possible for a player to use two mismatched keys at once to make a working key.  You can prevent this by selecting your codes carefully,
+using trigger teleports/destroy/etc on keys that don't belong in other levels, or making the col liders smaller such that
+two keys cannot touch the lock at the same time.
+
+
+MINIMIZING KEY LAYERS
+-------------------------
+Check below to figure out how to use the least number of layers for the amount of
+keys in your world.
+
+
+The amount of unique keys you can have is determined this way:
+
+2-trigger keys
+
+So for 9 user-generated layers, you can have up to 36 unique doors.
+For reference, a 2 trigger key:
+4 layers - 6 keys (12, 13, 14, 23, 24, 34)
+5 layers - 10 keys (12, 13, 14, 15, 23, 24, 25, 34, 35, 45)	
+6 layers - 15 keys ...etc
+7 layers - 21 keys
+8 layers - 28 keys
+9 layers - 36 keys
+
+If you use a 3-trigger key, you can have this:
+5 layers - 10 keys (123, 124, 125, 134, 135, 145, 234, 235, 245, 345)
+6 layers - 20 keys
+7 layers - 35 keys
+8 layers - 56 keys
+9 layers - 84 keys
+
+4-trigger keys:
+6 layers - 14 keys
+7 layers - 35 keys
+8 layers - 70 keys
+9 layers - 126 keys
+
+

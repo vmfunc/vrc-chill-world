@@ -1,0 +1,6 @@
+SDK License 
+June 12, 2018
+
+tldr; Only use VRChat SDK assets for VRChat related projects. 
+
+See section 5. VRChat SDK License in our TOS located at www.vrchat.com/legal for full license.
